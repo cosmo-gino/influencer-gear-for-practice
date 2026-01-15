@@ -1,8 +1,77 @@
-* { 
-    margin:0 auto;
-    font-family: ;
+*{
+    margin:0;
+    padding:0;
+    
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  /* max-width: 1450px; */
+ 
 }
 
-.nav{
-    margin-top: 95px;
+ .navbar{
+    
+    /* background-color: aqua; */
+     /* border: 2px solid tomato; */
+
+    margin:95px 120px 0px 120px ;
+    display: flex;
+    justify-items: center;
+   justify-content:  space-between;
+    
 }
+
+ .menu {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    text-decoration: none;
+    gap: 35px;
+}
+
+.banner{
+    display: flex;
+    margin: 50px 132px 0px 120px ;
+    justify-items: center;
+    justify-content: space-between;
+    /* width: 1700px;
+    margin: 0 auto; */
+    max-width: 1450px;
+}
+.banner-text{
+    margin-top: 145.8px;
+    margin-right: 133px;
+    
+}
+.banner-text h1{
+    color: #3A3A3A;
+    font-size: 52px;
+    line-height: 70px;
+    gap: 16px;
+   
+}
+.banner-text p {
+    font-size: 16;
+    color: #3A3A3A;
+    font-weight: 600;
+    gap: 16;
+    margin-top: 16px;
+}
+
+.btn{
+    border-radius: 16px;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    margin-top: 16px;
+    color: white;
+    border: none;
+    width: 196px;
+    height: 44px;
+   
+}
+.image{
+    /* width: 440px;
+    height: 441px; */
+    background-image: url(./influencer-gear/images/Circle\ design.svg);
+}
+
